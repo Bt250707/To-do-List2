@@ -1,0 +1,53 @@
+.container {
+  max-width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-row, .modal-buttons {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button.clear {
+  width: 50%;
+  background-color: #dc3545;
+}
+
+.clear-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
